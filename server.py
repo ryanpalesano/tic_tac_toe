@@ -5,7 +5,7 @@ Board = {'1': ' ' , '2': ' ' , '3': ' ' ,
 moves = []
 
 for key in Board:
-    moves.append(key)  #running through each board 
+    moves.append(key)  #running through each box
 
 def printBoard(board):
     print(board['1'] + '|' + board['2'] + '|' + board['3'])
